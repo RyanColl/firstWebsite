@@ -1,0 +1,117 @@
+/* stylesheet */
+
+@media screen and (max-width:600px) {
+  body {
+  text-align:center;
+  background-color: #7a092f;
+  width: 100%;
+  }
+  .paragraph{
+    font-size:0.5em;
+  }
+  .nav {
+    background-color: saddlebrown;
+    border-radius: 12px;
+    text-align:center;
+  }
+}
+
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .nav {
+    background-color: aqua;
+    border-radius: 12px;
+    text-align:center;  
+  }
+.h1 {
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    min-height:700px;
+    padding-top:175px;
+    text-align:center;
+    color:rgb(170, 49, 116)
+  }
+.header {
+  background-color: #581f1f;
+  text-align: center;
+  padding: 20px;
+  border-radius: 50px;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+}
+/*  nav container */
+.navigation {
+  overflow: hidden;
+  background-color: #0a72e973;
+  text-align: center;
+  padding-top: 20px;
+  height:100%;
+}
+
+/* nav links */
+.navigation a {
+  float: left;
+  display: block;
+  color: #8d1e1ed8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-centered {
+  height: 100%;
+}
+.nav-centered a {
+  float: none;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* change colour on hover */
+.navigation a:hover {
+  background-color: #f5f368d0; 
+  color: black;
+}
+
+/* change colour to the active link */
+.navigation a.active {
+  background-color: #7a094f;
+  color: white;
+}
+
+.schoolpage {
+  background-color: #f5f368d0;
+}
+
+.coursespage {
+  background-color: #f5f368d0;
+}
+.text-center{
+  text-align: center   ;
+}
+
+.paragraph {
+  text-align: center;
+  color: #4CAF50;
+}
+.list {
+  text-align: center;
+}
+footer {
+  background-color: black;
+  border-radius: 50px;
+  padding-right: 100px;
+}
